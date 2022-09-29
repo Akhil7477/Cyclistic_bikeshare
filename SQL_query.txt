@@ -1,0 +1,71 @@
+  SELECT 
+      started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+      start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202103
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+  UNION ALL
+  SELECT 
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202104
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+  UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202105
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+  UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202106
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202107
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202108
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202109
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202110
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202111
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202112
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202201
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL
+    UNION ALL
+  SELECT
+        started_at, ended_at, RTRIM(rideable_type, '_bike') AS bike_type,
+        start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual 
+  FROM  trip_data.trip_202202
+  WHERE start_station_id IS NOT NULL AND start_station_name IS NOT NULL AND end_station_id IS NOT NULL AND end_station_name IS NOT NULL ;
