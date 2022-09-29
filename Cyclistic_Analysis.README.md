@@ -21,7 +21,9 @@ Repository
 The codebase contains three files:
 
 An R file where the actual analysis and visualizations took place in R programming language (along with comments)
+
 An RMarkdown file where the whole description of the case study is noted down in points. Each step in the analysis is clearly explained here. It also contains the code chunks from the above file.
+
 An Text file which contain the query from BigQuery(SQL). 
 
 
