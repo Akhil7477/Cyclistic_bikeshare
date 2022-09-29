@@ -20,11 +20,11 @@ Repository
 
 The codebase contains three files:
 
-An R file where the actual analysis and visualizations took place in R programming language (along with comments)
+-An R file where the actual analysis and visualizations took place in R programming language (along with comments)
 
-An RMarkdown file where the whole description of the case study is noted down in points. Each step in the analysis is clearly explained here. It also contains the code chunks from the above file.
+-An RMarkdown file where the whole description of the case study is noted down in points. Each step in the analysis is clearly explained here. It also contains the code chunks from the above file.
 
-An Text file which contain the query from BigQuery(SQL). 
+-An Text file which contain the query from BigQuery(SQL). 
 
 
 I will use Cyclistic’s historical trip data to analyze and identify trends. Please find the previous 12 months of Cyclistic trip data here. The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this license.
